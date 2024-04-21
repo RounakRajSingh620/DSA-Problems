@@ -82,16 +82,6 @@ string LineOrdering(string strArr[], int arrLength)
     return to_string(finalOrderings);
 }
 
-// int main(void) {
-
-//   // keep this function call here
-//   string A[] = coderbyteInternalStdinFunction(stdin);
-//   int arrLength = sizeof(A) / sizeof(*A);
-//   cout << LineOrdering(A, arrLength);
-//   return 0;
-
-// }
-
 int main()
 {
     string A[] = {"A>B", "A>C", "B>C"};
